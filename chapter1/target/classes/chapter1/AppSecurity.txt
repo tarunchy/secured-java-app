@@ -1,0 +1,5 @@
+grant {
+
+   #permission java.net.SocketPermission "www.google.com:80","connect,resolve";
+   #permission java.net.URLPermission "http://www.google.com:80","GET";
+}; 
